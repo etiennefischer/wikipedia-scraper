@@ -11,13 +11,13 @@ Ce projet est un outil CLI développé avec Symfony pour scraper des pages Wikip
 
 1. Clonez ce dépôt :
 
-git clone https://github.com/votre_nom_utilisateur/symfony-wikipedia-scraper.git
+git clone https://github.com/etiennefischer/wikipedia-scraper.git
 
 Copy
 
 2. Accédez au répertoire du projet :
 
-cd symfony-wikipedia-scraper
+cd wikipedia-scraper
 
 Copy
 
@@ -31,7 +31,7 @@ Copy
 
 Pour utiliser cet outil, exécutez la commande suivante dans un terminal :
 
-php bin/console app:wikipedia-scraper "VotreMotClé"
+php bin/console wiki-scraper "VotreMotClé"
 
 Copy
 
@@ -41,10 +41,4 @@ Remplacez `"VotreMotClé"` par le mot clé pour lequel vous souhaitez extraire l
 
 Pour rechercher des informations sur "Symfony", exécutez la commande suivante :
 
-php bin/console app:wikipedia-scraper "Symfony"
-
-Copy
-
-## Licence
-
-Ce projet est sous licence MIT. Voir le fichier [LICENSE](LICENSE) pour plus de détails.
+php bin/console wiki-scraper "Symfony"
