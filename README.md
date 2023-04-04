@@ -13,27 +13,19 @@ Ce projet est un outil CLI développé avec Symfony pour scraper des pages Wikip
 
 git clone https://github.com/etiennefischer/wikipedia-scraper.git
 
-Copy
-
 2. Accédez au répertoire du projet :
 
 cd wikipedia-scraper
 
-Copy
-
 3. Installez les dépendances à l'aide de Composer :
 
 composer install
-
-Copy
 
 ## Utilisation
 
 Pour utiliser cet outil, exécutez la commande suivante dans un terminal :
 
 php bin/console wiki-scraper "VotreMotClé"
-
-Copy
 
 Remplacez `"VotreMotClé"` par le mot clé pour lequel vous souhaitez extraire les informations de la page Wikipedia. La commande va scraper la page Wikipedia correspondant au mot clé recherché, extraire les titres de section et créer des classes dans le dossier `src/Entity` basées sur ces titres.
 
